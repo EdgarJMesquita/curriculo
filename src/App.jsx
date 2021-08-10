@@ -11,14 +11,14 @@ function App() {
       <ul>
         <li>
           &#8226; 
-          <a href="https://www.linkedin.com/in/edgar-jonas" target="_blank" without rel="noreferrer">
+          <a href="https://www.linkedin.com/in/edgar-jonas" target="_blank" rel="noreferrer">
             <img className="small-icon" src={linkedInIcon} alt="linkedIn" />
             LinkedIn
           </a>
         </li>
         <li>
           &#8226;
-          <a href="https://github.com/EdgarXongas" target="_blank" without rel="noreferrer">
+          <a href="https://github.com/EdgarXongas" target="_blank" rel="noreferrer">
             <img className="small-icon" src={githubIcon} alt="github" />
             Github
           </a>
