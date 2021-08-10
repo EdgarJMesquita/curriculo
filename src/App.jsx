@@ -1,4 +1,4 @@
-import { AwesomeSVG } from './components/AwesomeSVG';
+import { AwesomeIcons } from './components/AwesomeIcons';
 import linkedInIcon from './assets/images/linkedInIcon.svg';
 import githubIcon from './assets/images/githubIcon.svg';
 import './styles/style.scss';
@@ -60,7 +60,7 @@ function App() {
         <li>&#8226; Integração com APIs</li>
         <li>&#8226; Figma</li>
       </ul>
-      <AwesomeSVG />
+      <AwesomeIcons />
     </div>
   );
 }

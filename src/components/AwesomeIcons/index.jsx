@@ -9,7 +9,7 @@ import figmaIcon from '../../assets/images/figmaIcon.svg';
 import '../../animations/index';
 import './style.scss';
 
-export function AwesomeSVG(){
+export function AwesomeIcons(){
   return(
     <div className="icons-container">
       <img className="icon" src={htmlIcon} alt="HTML" />

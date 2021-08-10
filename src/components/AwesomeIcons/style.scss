@@ -17,17 +17,13 @@
   margin-left: 0.4rem;
 }
 
-#atom1 {
+#atom1, #atom2 {
  animation: spin1 3s linear infinite;
  transform-origin: center;
 }
-#atom2 {
-  animation: spin2 3s linear infinite;
-  transform-origin: center;
 
-}
 #atom3 {
-  animation: spin3 3s linear infinite;
+  animation: spin2 3s linear infinite;
   transform-origin: center;
 
 }
@@ -37,10 +33,6 @@
   100% { transform: rotate(-360deg);}
 }
 @keyframes spin2 {
-  0% { transform: rotate(0);}
-  100% { transform: rotate(-360deg);}
-}
-@keyframes spin3 {
   0% { transform: rotate(0);}
   100% { transform: rotate(360deg);}
 }
