@@ -27,7 +27,8 @@ function App() {
 
       <h2>Objetivo</h2>
       <ul>
-        <li>&#8226; Conseguir meu primeiro trabalho ou estágio como programador.</li>
+        <li>&#8226; Desenvolver minhas habilidades e conhecimentos em uma empresa responsável com a tecnologia.</li>
+        <li>&#8226; Conseguir meu primeiro trabalho ou estágio na TI.</li>
       </ul>
 
       <h2>Experiências</h2>
@@ -40,12 +41,11 @@ function App() {
         <li>&#8226; 2020 - Curso Superior de Análise e Desenvolvimento de Sistemas - Faculdade CDL - cursando 3° semestre.</li>
       </ul>
 
-      <h2>Educação Autodidata</h2>
+      <h2>Conhecimentos</h2>
       <ul>
-        <li>&#8226; Desenvolvimento FrontEnd</li>
-        <li>&#8226; HTML5/CSS3 responsivo</li>
-        <li>&#8226; Javascript - ECMAScript 6</li>
-        <li>&#8226; Typescript</li>
+        <li>&#8226; HTML5/CSS3 responsivo - intermediário.</li>
+        <li>&#8226; Javascript - intermediário.</li>
+        <li>&#8226; Typescript - aprendendo.</li>
         <li>&#8226; React.js
           <svg id="small-react-icon" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.4387 36.0214C33.3922 36.0214 35.7865 33.3303 35.7865 30.0107C35.7865 26.6911 33.3922 24 30.4387 24C27.4852 24 25.0909 26.6911 25.0909 30.0107C25.0909 33.3303 27.4852 36.0214 30.4387 36.0214Z" fill="#61DAFB"/>
@@ -53,12 +53,13 @@ function App() {
             <path id="atom2" d="M21.5244 34.9109C28.7543 46.7589 38.4914 54.2464 43.2727 51.6345C48.0541 49.0227 46.0691 37.3007 38.8392 25.4527C31.6093 13.6047 21.8722 6.11729 17.0909 8.7291C12.3096 11.3409 14.2945 23.0629 21.5244 34.9109Z" stroke="#61DAFB" strokeWidth="2"/>
             <path id="atom1" d="M21.5244 25.4528C14.2945 37.3008 12.3096 49.0228 17.0909 51.6346C21.8723 54.2464 31.6093 46.759 38.8392 34.911C46.0691 23.063 48.0541 11.341 43.2727 8.72915C38.4914 6.11734 28.7543 13.6048 21.5244 25.4528Z" stroke="#61DAFB" strokeWidth="2"/>
           </svg>
+          - aprendendo.
         </li>
-        <li>&#8226; Sass</li>
-        <li>&#8226; Firebase</li>
-        <li>&#8226; UI &amp; UX básico</li>
-        <li>&#8226; Integração com APIs</li>
-        <li>&#8226; Figma</li>
+        <li>&#8226; Sass - intermediário.</li>
+        <li>&#8226; Firebase (Realtime Database, Auth).</li>
+        <li>&#8226; UI &amp; UX - básico.</li>
+        <li>&#8226; Integração com APIs - intermediário.</li>
+        <li>&#8226; Figma - básico.</li>
       </ul>
       <AwesomeIcons />
     </div>
