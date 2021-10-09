@@ -6,7 +6,7 @@ import './styles/style.scss';
 function App() {
   return (
     <div className="responsive">
-      <h1>Edgar Jonas Mesquita da Silva</h1>
+      <h1>Edgar Jonas</h1>
       <h2>Contato</h2>
       <ul>
         <li>
@@ -25,15 +25,15 @@ function App() {
         </li>
       </ul>
 
-      <h2>Objetivo</h2>
+      {/* <h2>Objetivo</h2>
       <ul>
-        <li>&#8226; Desenvolver minhas habilidades e conhecimentos em uma empresa responsável com a tecnologia.</li>
-        <li>&#8226; Conseguir meu primeiro trabalho ou estágio na TI.</li>
-      </ul>
+        <li>&#8226; Aprender novas tecnologias.</li>
+      </ul> */}
 
       <h2>Experiências</h2>
       <ul>
-        <li>&#8226; 2017 - Operação Comercial - Americanas - emprego atual.</li>
+        <li>&#8226; 2017 - Operação Comercial - Americanas - 2021</li>
+        <li>&#8226; 2021 - Programador React-Native - emprego atual</li>
       </ul>
 
       <h2>Educação</h2>
@@ -43,9 +43,10 @@ function App() {
 
       <h2>Conhecimentos</h2>
       <ul>
-        <li>&#8226; HTML5/CSS3 responsivo - intermediário.</li>
-        <li>&#8226; Javascript - intermediário.</li>
-        <li>&#8226; Typescript - aprendendo.</li>
+        <li>&#8226; React-Native - aprendendo</li>
+        <li>&#8226; HTML5/CSS3</li>
+        <li>&#8226; Javascript</li>
+        <li>&#8226; Typescript</li>
         <li>&#8226; React.js
           <svg id="small-react-icon" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.4387 36.0214C33.3922 36.0214 35.7865 33.3303 35.7865 30.0107C35.7865 26.6911 33.3922 24 30.4387 24C27.4852 24 25.0909 26.6911 25.0909 30.0107C25.0909 33.3303 27.4852 36.0214 30.4387 36.0214Z" fill="#61DAFB"/>
@@ -55,10 +56,10 @@ function App() {
           </svg>
           - aprendendo.
         </li>
-        <li>&#8226; Sass - intermediário.</li>
+        <li>&#8226; Sass</li>
         <li>&#8226; Firebase (Realtime Database, Auth).</li>
-        <li>&#8226; UI &amp; UX - básico.</li>
-        <li>&#8226; Integração com APIs - intermediário.</li>
+        <li>&#8226; UI &amp; UX - aprendendo.</li>
+        <li>&#8226; Integração com APIs</li>
         <li>&#8226; Figma - básico.</li>
       </ul>
       <AwesomeIcons />
