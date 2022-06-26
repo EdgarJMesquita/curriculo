@@ -9,8 +9,8 @@ import figmaIcon from '../../assets/images/figmaIcon.svg';
 import '../../animations/index';
 import './style.scss';
 
-export function AwesomeIcons(){
-  return(
+export function AwesomeIcons() {
+  return (
     <div className="icons-container">
       <img className="icon" src={htmlIcon} alt="HTML" />
       <img className="icon" src={cssIcon} alt="CSS" />
@@ -21,5 +21,5 @@ export function AwesomeIcons(){
       <img className="icon" src={firebaseIcon} alt="firebase" />
       <img className="icon" src={figmaIcon} alt="figma" />
     </div>
-  )
+  );
 }

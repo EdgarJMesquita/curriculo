@@ -1,8 +1,12 @@
-import React from "react";
-import { AwesomeIcons } from "../../components/AwesomeIcons";
-import linkedInIcon from "../../assets/images/linkedInIcon.svg";
-import githubIcon from "../../assets/images/githubIcon.svg";
-import "../../styles/style.scss";
+import React from 'react';
+import { AwesomeIcons } from '../../components/AwesomeIcons';
+import linkedInIcon from '../../assets/images/linkedInIcon.svg';
+import githubIcon from '../../assets/images/githubIcon.svg';
+import awsIcon from '../../assets/images/aws.svg';
+import xCodeIcon from '../../assets/images/xcode.svg';
+import androidStudioIcon from '../../assets/images/android_studio.svg';
+import '../../styles/style.scss';
+import { ReactIconAnimation } from '../../components/ReactIconAnimation';
 
 export function Home() {
   return (
@@ -41,65 +45,90 @@ export function Home() {
 
       <h2>Experiências</h2>
       <ul>
-        <li>&#8226; 2017 - Operação Comercial - Americanas - 2021</li>
-        <li>&#8226; 2021 - Programador React-Native - emprego atual</li>
+        <li>
+          &#8226; 2021 até agora - Programador Javascript -
+          <a href="https://mtechsp.com.br" target="_blank" rel="noreferrer">
+            <img
+              width={20}
+              style={{ margin: '0 0.4rem' }}
+              src="https://mtechsp.com.br/wp-content/uploads/2021/12/cropped-icone-192x192.png"
+            />
+            Mtech
+          </a>
+        </li>
       </ul>
 
       <h2>Educação</h2>
       <ul>
         <li>
           &#8226; 2020 - Curso Superior de Análise e Desenvolvimento de Sistemas
-          - Faculdade CDL - cursando 3° semestre.
+          - Faculdade CDL - cursando 5° semestre.
         </li>
       </ul>
 
       <h2>Conhecimentos</h2>
       <ul>
-        <li>&#8226; React-Native - aprendendo</li>
-        <li>&#8226; HTML5/CSS3</li>
         <li>&#8226; Javascript</li>
         <li>&#8226; Typescript</li>
-        <li>
-          &#8226; React.js
-          <svg
-            id="small-react-icon"
-            width="60"
-            height="60"
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M30.4387 36.0214C33.3922 36.0214 35.7865 33.3303 35.7865 30.0107C35.7865 26.6911 33.3922 24 30.4387 24C27.4852 24 25.0909 26.6911 25.0909 30.0107C25.0909 33.3303 27.4852 36.0214 30.4387 36.0214Z"
-              fill="#61DAFB"
-            />
-            <path
-              id="atom3"
-              d="M30.1818 39.64C44.6416 39.64 56.3636 35.4054 56.3636 30.1818C56.3636 24.9582 44.6416 20.7236 30.1818 20.7236C15.722 20.7236 4 24.9582 4 30.1818C4 35.4054 15.722 39.64 30.1818 39.64Z"
-              stroke="#61DAFB"
-              strokeWidth="2"
-            />
-            <path
-              id="atom2"
-              d="M21.5244 34.9109C28.7543 46.7589 38.4914 54.2464 43.2727 51.6345C48.0541 49.0227 46.0691 37.3007 38.8392 25.4527C31.6093 13.6047 21.8722 6.11729 17.0909 8.7291C12.3096 11.3409 14.2945 23.0629 21.5244 34.9109Z"
-              stroke="#61DAFB"
-              strokeWidth="2"
-            />
-            <path
-              id="atom1"
-              d="M21.5244 25.4528C14.2945 37.3008 12.3096 49.0228 17.0909 51.6346C21.8723 54.2464 31.6093 46.759 38.8392 34.911C46.0691 23.063 48.0541 11.341 43.2727 8.72915C38.4914 6.11734 28.7543 13.6048 21.5244 25.4528Z"
-              stroke="#61DAFB"
-              strokeWidth="2"
-            />
-          </svg>
-          - aprendendo.
-        </li>
-        <li>&#8226; Sass</li>
-        <li>&#8226; Firebase (Realtime Database, Auth).</li>
-        <li>&#8226; UI &amp; UX - aprendendo.</li>
+
+        <li>&#8226; Mobile</li>
+        <ul style={{ paddingLeft: '1rem' }}>
+          <li>&#8226; React-Native</li>
+          <li>&#8226; Expo</li>
+          <li>
+            &#8226; Android Studio
+            {/* <img
+              className="small-icon"
+              src={androidStudioIcon}
+              alt="android studio"
+            /> */}
+          </li>
+          {/* androidStudioIcon */}
+          <li>
+            &#8226; XCode(MacOS Monterey)
+            {/* <img className="small-icon" src={xCodeIcon} alt="xcode" /> */}
+          </li>
+          <li>&#8226; Push Notifications(FCM e APNs)</li>
+          <li>&#8226; MapBox</li>
+        </ul>
+        <li>&#8226; FrontEnd</li>
+        <ul style={{ paddingLeft: '1rem' }}>
+          <li>
+            &#8226; ReactJS <ReactIconAnimation />
+          </li>
+          <li>&#8226; HTML5</li>
+          <li>&#8226; CSS3</li>
+          <li>&#8226; Styled-Components</li>
+        </ul>
+        <li>&#8226; BackEnd</li>
+
+        <ul style={{ paddingLeft: '1rem' }}>
+          <li>&#8226; NodeJS</li>
+          <li>&#8226; Express</li>
+          <li>&#8226; TypeORM</li>
+          <li>&#8226; Prisma</li>
+          <li>&#8226; MySQL</li>
+        </ul>
+
         <li>&#8226; Integração com APIs</li>
         <li>&#8226; Figma - básico.</li>
       </ul>
+
+      <h2>Certificações</h2>
+      <ul>
+        <li>
+          &#8226;
+          <a
+            href="https://www.credly.com/badges/1b82e4d6-8076-46f3-bcd5-56f977ab044d/linked_in?t=rdwn4h"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="small-icon" src={awsIcon} alt="aws" />
+            AWS Academy Graduate - AWS Academy Cloud Foundations
+          </a>
+        </li>
+      </ul>
+
       <AwesomeIcons />
     </div>
   );
