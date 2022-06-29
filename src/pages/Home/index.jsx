@@ -28,7 +28,7 @@ export function Home() {
         <li>
           &#8226;
           <a
-            href="https://github.com/EdgarXongas"
+            href="https://github.com/EdgarJMesquita"
             target="_blank"
             rel="noreferrer"
           >
