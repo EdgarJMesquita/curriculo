@@ -7,6 +7,7 @@ import xCodeIcon from '../../assets/images/xcode.svg';
 import androidStudioIcon from '../../assets/images/android_studio.svg';
 import '../../styles/style.scss';
 import { ReactIconAnimation } from '../../components/ReactIconAnimation';
+import { ProjectsCarrossel } from '../../components/ProjectsCarrossel';
 
 export function Home() {
   return (
@@ -43,10 +44,12 @@ export function Home() {
         <li>&#8226; Aprender novas tecnologias.</li>
       </ul> */}
 
+      <ProjectsCarrossel />
+
       <h2>Experiências</h2>
       <ul>
         <li>
-          &#8226; 2021 até agora - Programador Javascript -
+          &#8226; 2021 até agora - Programador ReactNative | FrontEnd -
           <a href="https://mtechsp.com.br" target="_blank" rel="noreferrer">
             <img
               width={20}
